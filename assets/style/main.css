@@ -1,0 +1,37 @@
+body { 
+    background: url(/assets/img/astronaut-earth.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Fugaz One', cursive;
+}
+
+.coverText{
+    font-size: 2em;
+    color:rgba(255, 255, 255, 0.7);
+    position: fixed;
+    bottom: 0px;
+    left: 70px;
+    right: 400px;
+    line-height: 2.6em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.coverText:hover{
+    color:white;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    cursor: default;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}

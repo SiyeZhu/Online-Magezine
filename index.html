@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CORE2019</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style/cover.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style/article.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Roboto+Condensed|Roboto:400,700i&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/76ef9df818.js"></script>
 </head>
@@ -14,8 +14,28 @@
     <button class="buttonLeft" id="button" onclick="plusDivs(-1)">&#10094;</button>
     <button class="buttonRight" id="button" onclick="plusDivs(1)">&#10095;</button>
     <div class="coverText">
-        <h1 id="text">THE COMPUTING RACE TO SPACE: FROM SPUTNIK TO APOLLO</h1>
+        <a class="title" href="article.html"><h1 id="text">THE COMPUTING RACE TO SPACE: FROM SPUTNIK TO APOLLO</h1></a>
+       
     </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="article.html">About</a>
+        <a href="article.html">Services</a>
+        <a href="article.html">Clients</a>
+        <a href="article.html">Contact</a>
+    </div> 
+    <span class="nav" onclick="openNav()">&#9776;</span>
+    
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
     <script src="/assets/js/change-cover.js"></script>
 </body>
 </html>

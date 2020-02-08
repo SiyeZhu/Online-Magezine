@@ -21,11 +21,7 @@ p{
 
 a {
     text-decoration: none;
-    font-size: 2em;
-    line-height: 2.6em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     color:rgba(255, 255, 255, 0.8);
-    transition: width 1s ease-in-out;
 }
 
 .coverText{
@@ -33,6 +29,11 @@ a {
     bottom: 0px;
     left: 70px;
     right: 400px;  
+    font-size: 2em;
+    line-height: 2.6em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    color:rgba(255, 255, 255, 0.8);
+    transition: width 0.5s ease-in-out;
 }
 
 #text:hover{
@@ -41,7 +42,7 @@ a {
     padding-bottom: 5px;
     transition-duration: 0.2s;
     transition-timing-function: linear;
-    cursor: default;
+    cursor: pointer;
 }
 
 button {
@@ -70,7 +71,7 @@ button:hover{
     color:white;
     transition-duration: 0.15s;
     transition-timing-function: linear;
-    cursor: default;
+    cursor: pointer;
 }
 
 button:focus {

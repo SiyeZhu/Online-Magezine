@@ -7,13 +7,14 @@ img{
 }
 
 .nav{
-    color:rgba(0, 0, 0, 0.8);
+    color:black;
     background-color: white;;
     padding:0px 3px; 
 }
 
 .nav:hover{
     color:black;
+    font-weight: 800;
     transition-duration: 0.15s;
     transition-timing-function: linear;
     cursor: default;

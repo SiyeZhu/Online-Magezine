@@ -10,10 +10,6 @@ body {
 h1{
     font-family: 'Fugaz One', cursive;
 }
- 
-h2{
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -26,10 +22,10 @@ a {
 
 .coverText{
     position: fixed;
-    bottom: 0px;
-    left: 70px;
-    right: 400px;  
-    font-size: 2em;
+    bottom: 3%;
+    left: 10%;
+    right: 30%;  
+    font-size: 2.5vw;
     line-height: 2.6em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     color:rgba(255, 255, 255, 0.8);
@@ -57,13 +53,13 @@ button {
 
 .buttonLeft{
     position: fixed;
-    left: 30px;
+    left: 3%;
     bottom: 50%;
 }
 
 .buttonRight{
     position: fixed;
-    right: 30px;
+    right: 3%;
     bottom: 50%;
 }
 
@@ -78,3 +74,4 @@ button:focus {
     border: none;
     outline: none;
 }
+

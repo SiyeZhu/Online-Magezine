@@ -29,6 +29,7 @@ img{
 }
 
 .coverText{
+    font-family: 'Fugaz One', cursive;
     font-size: 4em;
     line-height: 1.2em;
     color:black;
@@ -51,6 +52,7 @@ img{
 
 button{
     border:none;
+    background:none;
 }
 
 .collapsible {

@@ -3,16 +3,6 @@ body{
     font-size: 16px;
 }
 
-h1{
-    font-family: 'Fugaz One', cursive;
-}
- 
-h2{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: normal;
-    font-size: 2.4em;
-}
-
 .nav{
     color:rgba(255, 255, 255, 0.8);
     text-shadow: none;
@@ -90,4 +80,16 @@ h2{
     border: none;
     margin-right: 8px;
     height: 50px;
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media  only screen and (max-width: 800px) {
+    /* for ipad */
+}
+
+@media only screen and (max-width: 480px) {
+    /* for iphone */
 }

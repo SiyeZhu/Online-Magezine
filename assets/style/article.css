@@ -30,7 +30,7 @@ img{
 
 .coverText{
     font-family: 'Fugaz One', cursive;
-    font-size: 4em;
+    font-size: 8vw;
     line-height: 1.2em;
     color:black;
     transition: width 0.5s ease-in-out;
